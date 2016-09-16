@@ -1,22 +1,37 @@
-html
-    head
-        link(rel='stylesheet', href='/css/uikit.min.css')
-        script(src='https://code.jquery.com/jquery-3.1.0.min.js')
-        script(src='/js/uikit.min.js')
-
-    body
-        nav.uk-navbar
-            ul.uk-navbar-nav
-                a(href="" class="uk-navbar-brand") Науч.Круг - Тест
-                li
-                    a(href="#") Главная
-
-                li
-                    a(href="#") Новости
-
-        //a(href='#my-id', data-uk-modal) ...
-        //// This is the modal
-        //#my-id.uk-modal
-        //    .uk-modal-dialog
-        //        a.uk-modal-close.uk-close
-        //        h1 Привет
+extends layout
+block content
+        // Page Contents
+        .pusher
+            .ui.inverted.vertical.masthead.center.aligned.segment
+                .ui.container
+                    .ui.large.secondary.inverted.pointing.menu
+                        a.toc.item
+                            i.sidebar.icon
+                        a.active.item Home
+                        a.item Work
+                        a.item Company
+                        a.item Careers
+                        .right.item
+                            a.ui.inverted.button Войти
+                .ui.text.container
+                    h1.ui.inverted.header
+                        | Движок Науч.Круга
+                    h2 Позволяющий строить варианты на полученных данных
+                    .ui.huge.primary.button
+                        | Тестировать
+                        i.right.arrow.icon
+            .ui.vertical.stripe.segment
+                .ui.middle.aligned.stackable.grid.container
+                    .row
+                        .eight.wide.column
+                            h3.ui.header Новый
+                            p
+                                | Вдохновлённый авторскими методами. Хуяк-хуяк и в продакшн - движок работает как часы
+                            h3.ui.header Современный
+                            p
+                                | Долой страпоны, юзаем SemanticUI
+                        .six.wide.right.floated.column
+                            img.ui.large.image(src='/img/home-icon.png')
+                    .row
+                        .center.aligned.column
+                            a.ui.huge.button GitHub
