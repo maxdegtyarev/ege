@@ -13,9 +13,9 @@ app.set('view cache');
 
 //Middlewares
 app.use(express.static(path.join(__dirname, '/static')));
+
+//Маршрутизация
 app.use('/', indexRouter);
-
-
 
 //Starting server
 var port = process.env.PORT || 3000;
