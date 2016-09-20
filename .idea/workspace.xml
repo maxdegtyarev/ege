@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd110d81-3544-43b9-a311-fcd923c59d6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/db/db.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/auth/checkAuth.js" afterPath="$PROJECT_DIR$/lib/auth/checkAuth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/model_task.js" afterPath="$PROJECT_DIR$/models/model_task.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/p/index.pug" afterPath="$PROJECT_DIR$/pages/p/index.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/exam.js" afterPath="$PROJECT_DIR$/routes/exam.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/db.js" afterPath="$PROJECT_DIR$/lib/system/serverApp.js" />
-    </list>
+    <list default="true" id="dd110d81-3544-43b9-a311-fcd923c59d6f" name="Default" comment="" />
     <ignored path="egetest.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,8 +104,8 @@
       <file leaf-file-name="model_task.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/model_task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="187">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -473,18 +463,18 @@
       <workItem from="1473987751443" duration="5878000" />
       <workItem from="1474086350014" duration="2623000" />
       <workItem from="1474238196797" duration="4430000" />
-      <workItem from="1474309187272" duration="7949000" />
+      <workItem from="1474309187272" duration="7996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32111000" />
+    <option name="totallyTimeSpent" value="32158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294271" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -848,8 +838,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/model_task.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="187">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
