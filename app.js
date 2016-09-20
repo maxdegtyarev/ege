@@ -5,6 +5,7 @@ var express = require('express'),
     path = require('path'),
     indexRouter = require('./routes/index'),
     cabRouter = require('./routes/cabinet'),
+    examRouter = require('./routes/exam'),
     bodyParser = require('body-parser');
 
 
@@ -32,6 +33,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use('/', indexRouter);
 app.use('/cab', cabRouter);
+app.use('/exam', examRouter);
 
 //Авторизация
 

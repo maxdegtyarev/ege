@@ -12,7 +12,13 @@ block content
                         a.item Company
                         a.item Careers
                         .right.item
-                            a.ui.inverted.button Войти
+                            br
+                            //В частности, здесь располагается условие для проверки авторизованности пользователя
+                            if !authorized
+                                a.ui.inverted.button(href="/cab") Войти
+                            else
+                                h1=username
+
                 .ui.text.container
                     h1.ui.inverted.header
                         | Движок Науч.Круга
@@ -26,12 +32,15 @@ block content
                         .eight.wide.column
                             h3.ui.header Новый
                             p
-                                | Вдохновлённый авторскими методами. Хуяк-хуяк и в продакшн - движок работает как часы
+                                | Вдохновлённый авторскими методами. "Хуяк-хуяк и в продакшн" - движок работает как часы
                             h3.ui.header Современный
                             p
-                                | Долой страпоны, юзаем SemanticUI
+                                | Вместо бутстрапона тут юзается суперкрутой Semantic UI. Сасайти
+                            h3.ui.header Доступный
+                            p
+                                | Специально оптимизирован для Кирилла
                         .six.wide.right.floated.column
                             img.ui.large.image(src='/img/home-icon.png')
                     .row
                         .center.aligned.column
-                            a.ui.huge.button GitHub
+                            a.ui.huge.button(href="https://github.com/maxdegtyarev/ege") GitHub
