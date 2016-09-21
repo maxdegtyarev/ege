@@ -21,7 +21,7 @@ var passport = require('passport'),
 app.set('views', path.join(__dirname,'/pages'));
 app.set('view engine', 'pug');
 app.set('view cache');
-
+ 
 //Middlewares
 app.use(express.static(path.join(__dirname, '/static')));
 app.use(cookieParser());
@@ -47,7 +47,8 @@ app.get('/callback',
     });
 
 //Starting server
-startServer();
+startServer(); // Written from linux
+//kek
 function startServer() {
     console.log('Starting server...')
     var port = process.env.PORT || 3000;
