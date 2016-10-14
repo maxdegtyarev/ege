@@ -47,7 +47,7 @@ app.get('/callback',
     });
 
 //Starting server
-startServer(); // Written from linux
+startServer(); // Written from linux Ubuntu
 //kek
 function startServer() {
     console.log('Starting server...')
